@@ -91,16 +91,16 @@ int main() {
     printf("-------------------------------------------\n\n");
    
     //comparação entre as cartas 1 e 2;
-    printf("--- Comparação de Cartas (Atributo: PopuLação) ---\n");
+    printf("--- Comparação de Cartas (Para atributo: PopuLação) ---\n");
 
-    printf("Carta 1 - %s (%s): %.lu\n", cidade1, estado1, populacao1);
-    printf("Carta 2 - %s (%s): %.lu\n", cidade2, estado2, populacao2);
+    printf("Carta 1 - %s (%s): %.lu habitantes\n", cidade1, estado1, populacao1);
+    printf("Carta 2 - %s (%s): %.lu habitantes\n", cidade2, estado2, populacao2);
     if(populacao1>populacao2){
         printf("Carta 1 (%s) venceu!\n", cidade1);
     } else if (populacao1 == populacao2){
-        print("Empate!\n");
+        printf("Empate!\n");
     } else{
-        print("Carta 2 (%s) venceu!\n", cidade2);
+        printf("Carta 2 (%s) venceu!\n", cidade2);
     }
     printf("-------------------------------------------\n");
     
