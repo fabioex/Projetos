@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+
+    float notas[3] = {85.5, 90.0, 78.3}; // Array de notas (vetor)
+    char letras[4] = {'A', 'B', 'C', 'D'}; // Array de letras (vetor)
+
+    printf("Notas do aluno:\n");
+    printf("A nota do Aluno 1 é: %.1f\n", notas[0]);
+    printf("A nota do Aluno 2 é: %.1f\n", notas[1]);
+    printf("A nota do Aluno 3 é: %.1f\n", notas[2]);
+
+    printf("Letras do aluno:\n");
+    printf("A letra do Aluno 1 é: %c\n", letras[0]);
+    printf("A letra do Aluno 2 é: %c\n", letras[1]);
+    printf("A letra do Aluno 3 é: %c\n", letras[2]);
+    printf("A letra do Aluno 4 é: %c\n", letras[3]);
+
+
+
+    return 0;
+}
